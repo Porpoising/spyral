@@ -6,24 +6,29 @@
 
 .button-hitbox {
     display: inline-block;
-    padding-bottom: 30px;
     background-color: 23324E;
     border-radius: 50px 50px 45px 45px;
     box-shadow: 5px 10px 0px 0px rgba(0, 0, 0, 0.35);
 }
 
+
 .button-top {
     border-radius: 45px;
     display: inline-block;
-    background-color: 354B74;
+    background-color: rgb(53, 75, 116);
+    margin-bottom: 30px;
 }
 .button-top:hover {
     background-color: white;
-    box-shadow: inset 0px 0px 0px 10px rgb(53, 75, 116);
+    box-sizing: border-box;
+    border: solid 10px rgb(53, 75, 116);
 }
 
 .button-image {
     margin: 40px 45px;
-    width: 60px;
     height: 50px;
+    width: 60px;
+}
+.button-image:hover {
+    color: rgb(53, 75, 116)
 }
