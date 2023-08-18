@@ -20,16 +20,14 @@ div {
 
 .button-top {
     border-radius: 45px;
-    /* display: inline-block; */
-    background-color: rgb(53, 75, 116); 
-    padding: 40px 45px;
-    /* margin-bottom: 30px; */
-}
-.button-top:hover {
-    background-color: white;
+    background-color: rgb(53, 75, 116);
     box-sizing: border-box;
     border: solid 10px rgb(53, 75, 116);
     padding: 30px 35px;
+    transition: background-color 0.5s ease-in-out  
+}
+.button-top:hover {
+    background-color: white;
 }
 
 .button-image {
