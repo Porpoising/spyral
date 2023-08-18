@@ -21,21 +21,18 @@ div {
 .button-top {
     border-radius: 45px;
     /* display: inline-block; */
-    background-color: rgb(53, 75, 116);
+    background-color: rgb(53, 75, 116); 
+    padding: 40px 45px;
     /* margin-bottom: 30px; */
 }
 .button-top:hover {
     background-color: white;
     box-sizing: border-box;
     border: solid 10px rgb(53, 75, 116);
-}
-.button-top:hover .button-image{
-    margin: 30px 35px;
-    /* fill: rgb(53, 75, 116); */
+    padding: 30px 35px;
 }
 
 .button-image {
-    margin: 40px 45px;
     height: 50px;
     width: 60px;
 }
