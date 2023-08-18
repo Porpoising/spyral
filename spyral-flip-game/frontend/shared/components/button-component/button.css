@@ -25,13 +25,13 @@ div {
     /* margin-bottom: 30px; */
 }
 .button-top:hover {
-    background-color: transparent;
+    background-color: white;
     box-sizing: border-box;
     border: solid 10px rgb(53, 75, 116);
 }
 .button-top:hover .button-image{
     margin: 30px 35px;
-    fill: rgb(53, 75, 116);
+    /* fill: rgb(53, 75, 116); */
 }
 
 .button-image {

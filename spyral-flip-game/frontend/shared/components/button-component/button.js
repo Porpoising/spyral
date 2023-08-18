@@ -1,16 +1,25 @@
 window.addEventListener("load", function () {
-    let svgObject = this.document.getElementById('spyral-svg').contentDocument;
+    let svgObject = document.getElementById('spyral-svg').contentDocument;
     let svg = svgObject.getElementById('spyral-logo');
     console.log(svg);
 
+    let buttonsTopCollection = document.getElementsByClassName("button-top")
+    for (let i = 0; i < buttonsTopCollection.length; i++) {
+        buttonsTopCollection[i].addEventListener("mouseover", buttonTopMouseover, false)
+        buttonsTopCollection[i].addEventListener("mouseout", buttonTopOnMouseout, false)
+        console.log("added eventlistener");
+    }
 
+    function buttonTopMouseover() {
+        svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#354B74;}"
+    }
+
+    function buttonTopOnMouseout() {
+        svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#FFFFFF;}"
+    }
 })
 
-let buttons = document.querySelector(".button-container")
-console.log(buttons);
-let hoverEvent = new MouseEvent('mouseover', {
-    'view': window,
-    'bubbles': false,
-    'cancelable': true
-})
-button.dispatchEvent(hoverEvent)
+
+
+
+
