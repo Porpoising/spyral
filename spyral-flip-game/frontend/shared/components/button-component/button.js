@@ -11,11 +11,15 @@ window.addEventListener("load", function () {
     }
 
     function buttonTopMouseover() {
-        svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#354B74;}"
+        // svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#354B74;}"
+        // for non-optimized svg
+        console.log("triggered hover event");
     }
 
     function buttonTopOnMouseout() {
-        svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#FFFFFF;}"
+        // svg.querySelector("style").innerHTML = ".st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}.st1{fill:#FFFFFF;}"
+        // for non-optimized svg
+        console.log("triggered unhover event");
     }
 })
 

@@ -2,6 +2,10 @@ div {
     font-size: 16;
 }
 
+.no-hover {
+    pointer-events: none;
+}
+
 .button-container {
     display: inline-block;
     margin: 10px;
