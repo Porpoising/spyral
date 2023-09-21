@@ -1,0 +1,11 @@
+{
+  "name": "spyral-flip-game",
+  "version": "1.0.0",
+  "description": "A card flip game called Spyral",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raman Navichkou",
+  "license": "ISC"
+}
